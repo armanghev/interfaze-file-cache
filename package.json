@@ -7,7 +7,8 @@
     "bench:report": "tsx bench/report.ts",
     "bench:headers": "tsx bench/header-check.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "bench:lookalike": "tsx bench/lookalike.ts"
   },
   "repository": {
     "type": "git",
