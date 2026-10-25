@@ -2,6 +2,8 @@
 
 Measuring how [Interfaze](https://interfaze.ai)'s cache actually behaves, and two things I'd fix.
 
+**Live demo:** https://interfaze-cache-check.vercel.app shows the bypass bug in four calls.
+
 I started out to prove that Interfaze's cache misses when a file is sent as base64. The benchmark showed I was wrong: base64 is reused about as well as a stable URL. The same runs turned up two other problems, and both are reproducible with the scripts in this repo.
 
 ## Findings
