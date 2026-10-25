@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T00:47:53.996Z",
+  "checked_at": "2026-10-25T00:52:04.973Z",
   "offline": {
     "1.0.0": {
       "x-bypass-cache": "true",
@@ -16,6 +16,23 @@
     "1.0.3": {
       "x-interfaze-bypass-cache": "true",
       "x-interfaze-bypass-moa": "true"
+    }
+  },
+  "live": {
+    "none": {
+      "prime_vcache": true,
+      "repeat_vcache": true,
+      "verdict": "cache works"
+    },
+    "x-interfaze-bypass-cache": {
+      "prime_vcache": true,
+      "repeat_vcache": false,
+      "verdict": "honored"
+    },
+    "x-bypass-cache": {
+      "prime_vcache": true,
+      "repeat_vcache": true,
+      "verdict": "IGNORED"
     }
   }
 }
