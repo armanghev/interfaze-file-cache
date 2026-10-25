@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-25T00:47:53.996Z",
+  "offline": {
+    "1.0.0": {
+      "x-bypass-cache": "true",
+      "x-bypass-moe": "true"
+    },
+    "1.0.1": {
+      "x-bypass-cache": "true",
+      "x-bypass-moe": "true"
+    },
+    "1.0.2": {
+      "x-bypass-cache": "true",
+      "x-bypass-moe": "true"
+    },
+    "1.0.3": {
+      "x-interfaze-bypass-cache": "true",
+      "x-interfaze-bypass-moa": "true"
+    }
+  }
+}
