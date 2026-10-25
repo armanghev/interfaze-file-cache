@@ -1,0 +1,44 @@
+{
+  "name": "interfaze-file-cache",
+  "version": "0.1.0",
+  "description": "Content-addressed file URLs so Interfaze cache hits survive re-uploads",
+  "scripts": {
+    "bench": "tsx bench/run.ts",
+    "bench:report": "tsx bench/report.ts",
+    "bench:headers": "tsx bench/header-check.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armanghev/interfaze-file-cache.git"
+  },
+  "keywords": [
+    "interfaze",
+    "cache",
+    "r2",
+    "s3",
+    "sha256"
+  ],
+  "author": "Arman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armanghev/interfaze-file-cache/issues"
+  },
+  "homepage": "https://github.com/armanghev/interfaze-file-cache#readme",
+  "dependencies": {
+    "aws4fetch": "^1.0.20",
+    "interfaze": "^1.0.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "interfaze-1.0.0": "npm:interfaze@^1.0.0",
+    "interfaze-1.0.1": "npm:interfaze@^1.0.1",
+    "interfaze-1.0.2": "npm:interfaze@^1.0.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "type": "module"
+}
